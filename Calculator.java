@@ -16,12 +16,12 @@ public class Calculator {
 		System.out.println(df.format(x1) + " - " + df.format(y1) + " = " + df.format(sub));
 	}
 	static void mul(double x1, double y1) {
-		double sum = x1 * y1;
+		double mul = x1 * y1;
 
 		System.out.println(df.format(x1) + " * " + df.format(y1) + " = " + df.format(sum));
 	}
 	static void div(double x1, double y1) {
-		double sum = x1 / y1;
+		double div = x1 / y1;
 
 		System.out.println(df.format(x1) + " / " + df.format(y1) + " = " + df.format(sum));
 	}
