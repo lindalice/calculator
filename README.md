@@ -106,7 +106,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 ```
 ### 3.2. Klase Calculator:
-Izveudojam klasi Calculator, kura sevī ietvers funkcijas:
+Izveudojam klasi Calculator:
 ```sh
 public class Calculator {
 ```
