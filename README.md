@@ -115,7 +115,8 @@ Definējam statisku mainīgo, lai varētu noteikt formātu, kāds tas būs izvad
 private static final DecimalFormat df = new DecimalFormat("0.00");
 ```
 ### 3.3. Funkcija sum() :
-Tiek izveidota funkcija sum, kura satur sevī sasaitīšanas darbību. Pēc tam tā tiks padota uz main klasi, kurā tiks definēti cipari, ar kuriem jāveic darbības. 
+- Tiek izveidota funkcija sum(), kura satur sevī sasaitīšanas darbību
+- Pēc tam tā tiks padota uz main klasi, kurā tiks definēti cipari, ar kuriem jāveic darbības. 
 ```sh
 static void sum(double x1, double y1) {
 		double sum = x1 + y1;
@@ -123,7 +124,7 @@ static void sum(double x1, double y1) {
 	}
 ```
 ### 3.4. Funkcija sub() :
-Analoģiski tiek izveidota sub funkcija:
+Analoģiski tiek izveidota sub() funkcija:
 ```sh
 static void sub(double x1, double y1) {
 		double sub = x1 - y1;
@@ -131,7 +132,7 @@ static void sub(double x1, double y1) {
 	}
 ```
 ### 3.5. Funkcija mul() :
-Analoģiski tiek izveidota mul funkcija:
+Analoģiski tiek izveidota mul() funkcija:
 ```sh
 static void mul(double x1, double y1) {
 		double mul = x1 * y1;
@@ -139,7 +140,7 @@ static void mul(double x1, double y1) {
 	}
 ```
 ### 3.6. Funkcija div() :
-Analoģiski tiek izveidota div funkcija:
+Analoģiski tiek izveidota div() funkcija:
 ```sh
 static void div(double x1, double y1) {
 		double div = x1 / y1;
@@ -155,8 +156,8 @@ public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
 		char operator;
 ```
-Izvadām paziņojumu, lai lietotājs ievadītu vērtību pirmajam ciparam:
-Mainīgajā `x` šī vērība tiek padota.
+- Izvadām paziņojumu, lai lietotājs ievadītu vērtību pirmajam ciparam
+- Mainīgajā `x` šī vērība tiek saglabāta:
 ```sh
 		System.out.print("Ievadi 1. ciparu (decimālskaitļa atdalīšanai izmanto '.'): ");
 		String x = input.nextLine();
