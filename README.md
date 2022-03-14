@@ -256,5 +256,5 @@ input.close();
 - Izveidoju branch 
 - Updateoju Git Hub mājas lapas repo (augšupielādēju šo branch)
 - Kā visos - arī šajā branch tika iekļauts by default READ.me fails
-- Aprakstīju šo darbu ar markdown palīdzību (rediģējot minēto READ.me failu), kas ir šis fails (apraksts)
+- Aprakstīju šo darbu ar markdown palīdzību (rediģējot minēto README.md failu), kas ir šis fails (apraksts)
 
