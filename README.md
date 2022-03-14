@@ -34,6 +34,11 @@ public class Calculator {
 
 		System.out.println(df.format(x1) + " * " + df.format(y1) + " = " + df.format(mul));
 	}
+	static void div(double x1, double y1) {
+		double div = x1 / y1;
+
+		System.out.println(df.format(x1) + " / " + df.format(y1) + " = " + df.format(div));
+	}
 
 	public static void main(String args[]) {
 
@@ -65,7 +70,7 @@ public class Calculator {
 		}
 
 		// --------------------
-		System.out.print("Izvēlies darbību: '+' vai '-' vai '*', ievadot kādu no minētajiem simboliem '+', '-' vai '*'.");
+		System.out.print("Izvēlies darbību: '+' vai '-' vai '*' vai '/', ievadot kādu no minētajiem simboliem '+', '-', '*' vai '/'.");
 		operator = input.next().charAt(0);
 
 		switch (operator) {
@@ -77,6 +82,9 @@ public class Calculator {
 			break;
 		case '*':
 			mul(x1, y1);
+			break;
+		case '/':
+			div(x1, y1);
 			break;
 		default:
 			System.out.println("Nekorekti ievadīta darbība, mēģini vēlreiz");
