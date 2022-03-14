@@ -99,8 +99,8 @@ public class Calculator {
 
 ## 3. Calculator.java koda skaidrojums:
 ### 3.1. Importējam:
-Importējam DecimalFormat, lai izvadē decimālais skaitlis būtu noformēts 2 cipari aiz komata.
-Importējam Scanner, lai lietotājs varētu ievadīt ciparus.
+- Importējam DecimalFormat, lai izvadē decimālais skaitlis būtu noformēts 2 cipari aiz komata
+- Importējam Scanner, lai lietotājs varētu ievadīt ciparus
 ```sh
 import java.text.DecimalFormat;
 import java.util.Scanner;
