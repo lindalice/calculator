@@ -240,21 +240,21 @@ input.close();
 ### 4.1. Branch mul:
 - Šis branch tika izveidots analoģiski iepriekšējam
 - Tika pievienots rediģēts iepriekšējais Calculator. java fails - pievienoju reizināšanas funkciju
-- Updateoju Git Hub mājas lapas repo (augšupielādēju šo branch un attiecīgos datus)
+- Updateoju Git Hub mājas lapas repo Calculator (augšupielādēju šo branch un attiecīgos datus)
 
 ### 4.2. Branch div:
-- Arī šis branch tika izveudots analoģiski iepriekšējiem
-- Arī šajā branch tika  pievienots rediģēts iepriekšējais Calculator. java fails - pievienoju dalīšanas funkciju
-- Updateoju Git Hub mājas lapas repo (augšupielādēju šo branch un attiecīgos datus)
+- Arī šis branch tika izveidots analoģiski iepriekšējiem
+- Arī šajā branch tika pievienots rediģēts iepriekšējais Calculator. java fails - pievienoju dalīšanas funkciju
+- Updateoju Git Hub mājas lapas repo Calculator (augšupielādēju šo branch un attiecīgos datus)
 
 ### 4.3. Branch Development:
 - Šeit izmantoju funkciju merge un apvienoju visus failus kopā, iegūstot kodu, kas ir šī apraksta 2. nodaļā
-- Updateoju Git Hub mājas lapas repo (augšupielādēju šo branch un attiecīgos datus)
+- Updateoju Git Hub mājas lapas repo Calculator (augšupielādēju šo branch un attiecīgos datus)
 - Ieguvu gatavu Calculator.java failu, kurā ir visas elementārās aritmētiskās darbības
 
 ### 4.4. Branch release:
 - Izveidoju branch 
 - Updateoju Git Hub mājas lapas repo (augšupielādēju šo branch)
-- Kā visus - arī šajā branch tika iekļauts by default READ.me fails
+- Kā visos - arī šajā branch tika iekļauts by default READ.me fails
 - Aprakstīju šo darbu ar markdown palīdzību (rediģējot minēto READ.me failu), kas ir šis fails (apraksts)
 
